@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>I.E. N°30311 La Libertad</title>
+    <!--Libreria css para agregar iconos a la pagina-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+        <!--Framework para transformar la pagina responsiva a todas las pantallas-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Complementos de la librería Fontawesome-->
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="icon" href="img/icono_insignia.ico">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/arriba.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Libreria js para agregar iconos a la pagina-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Ventana modal que da las gracias luego de aplicar al boton del formulario-->
+    <script src="js/gracias.js"></script>
+</head>
+<body>
+    <span class="ir-arriba icon-arrow-up" class="img-responsive"></span>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/MENU_INSIGNIA.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="talleres.html">Talleres</a></li>
+                    <li><a href="testimonios.html">Testimonios</a></li>
+                    <button type="button" class="btn btn-tomato btn-info" data-toggle="modal" data-target="#miventana">
+                        Contacto
+                    </button>
+                        <div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h2 style="text-align: center">Síguenos en las redes sociales:</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/facebook.svg" alt="facebook" class="images">
+                                        <button class="redes">Institución Educativa La Libertad</button>
+                                        <br>
+                                        <img src="img/twitter.svg" alt="facebook" class="images">
+                                        <button class="redes">Institución Educativa La Libertad</button>
+                                        <br>
+                                        <img src="img/google-plus.svg" alt="facebook" class="images">
+                                        <button class="redes">ien30311lalibertad@gmail.com</button>
+                                        <br>
+                                        <img src="img/whatsapp.svg" alt="facebook" class="images">
+                                        <button class="redes">Llamar al N° +51952995937</button>
+                                        <br>
+                                        <img src="img/instagram.svg" alt="facebook" class="images">
+                                        <button class="redes">I. E. N°30311 "La Libertad"</button>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+            <img src="img/niña.png">
+            <div class="carousel-caption">
+                <h1>CALIDAD EDUCATIVA AL SERVICIO DE LOS ESTUDIANTES</h1>
+            </div>
+            </div> <!--Fin de la Actividad-->
+            <div class="item">
+                <img src="img/artes.png">
+                <div class="carousel-caption">
+                    <h1>DESARROLLO DE LA CREATIVIDAD DESDE MUY PEQUEÑOS</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/dados.png">
+                <div class="carousel-caption">
+                    <h1>PROFESORES QUE FORMAMOS A LÍDERES DEL MAÑANA</h1>
+                </div>
+            </div>
+        </div>
+        <!--Inicio de los Controles Slider-->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div> <!--Fin del Slider-->
+    <div class="container text-center">
+        <h2 class="titulo2"><hr>Lo que estamos enseñando<hr></h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/matematicas.png" id="icon">
+                <h4>Matemáticas</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/ciencia.png" id="icon">
+                <h4>Ciencia</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/arte.png" id="icon">
+                <h4>Arte</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>BIENVENIDOS A LA I. E. N°30311 "LA LIBERTAD"</h3>
+                <p>Somos una Institución Educativa comprometida en formar integralmente a nuestros estudiantes en los diferentes niveles académicos
+                Inicial, Primaria y Secundaria, aplicando competencias en todas las áreas curriculares, la práctica de valores y el desarrollo
+                de las habilidades personales. Hacemos uso de la tecnología en cada sesión de clase para generar mayores oportunidades de
+                aprendizajes.</p>
+                <p>Nos distinguimos por nuestra calidad y excelencia académica, formando alumnos líderes bajo una propuesta educativa con visión
+                hacia el futuro, en la búsqueda de la excelencia académica y nos orientamos en no tan solo crear conocimiento, si no tambien habilidades que seran guía y herramientas para toda la vida; Nuestros estudiantes son los protagonistas de su educación, constructores de su aprendizaje y propia personalidad.
+                Educación en valores durante todo el año escolar en todos sus niveles.La enseñanza que brindamos les asegura la continuidad del desarrollo de competencias desde el primer grado hasta el sexto grado en todas las áreas curriculares atendiendo los ritmos y estilos de aprendizaje de los estudiantes.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/clase.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4><strong>MISIÓN</strong></h4>
+                <p>Promover personas con principios éticos, morales y cristianos orientándolas a alcanzar un competente nivel académico en las
+                áreas de ciencias, tecnología, cultura, arte y responsabilidad social, personas con la capacidad de desempeñarse como líder
+                y animador en el mejoramiento de la convivencia humana en su comunidad.</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <img src="img/maestra.png" class="img-responsive">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4><strong>VISIÓN</strong></h4>
+                <p>Afianzar y profundizar el liderazgo desarrollado por el Colegio en su labor educacional para lograr futuros ciudadanos convencidos
+                y dedicados a impulsar el progreso material y humano de su comunidad. Este compromiso exige a la Institución Educativa continuar
+                ofertando un servicio de calidad según las exigencias de los estándares internacionales.</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <img src="img/regreso a clases.gif" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h3><a href="#hidden" data-toggle="collapse" class="revelar" style="text-decoration:none">¿Te interesa saber más sobre Nosotros?</a></h3>
+            <div id="hidden" class="collapse">
+                <!--Aqui empieza el formulario de CONTACTO-->
+                <div class="container2">
+                    <div style="text-align:center">
+                        <h2>Contáctenos</h2>
+                        <h4> Aquí está nuestro formulario de Contacto...</h4>
+                    </div>
+                    <div class="row2">
+                        <div class="column">
+                            <div id="map" style="width:100%;height:500px"></div>
+                        </div>
+                        <div class="column">
+                            <form method="post" action="enviar.php">
+                                <label for="fname">Nombres:</label>
+                                <input type="text" id="fname" name="nombres" placeholder="Ingrese su Nombre..." required>
+                                <label for="lname">Apellidos:</label>
+                                <input type="text" id="lname" name="apellidos" placeholder="Ingrese sus Apellidos..." required>
+                                <label for="correol">Correo Electrónico:</label>
+                                <input type="email" id="correol" name="correo" placeholder="Ingrese su Correo..." required>
+                                <label for="subject">Mensaje:</label>
+                                <textarea id="subject" name="mensaje" placeholder="Escribe tu Mensaje..." style="height:170px"></textarea>
+                                <input type="submit" value="Enviar" id="myBtn"> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Initialize Google Maps -->
+                <script>
+                    function myMap() {
+                            var myCenter = new google.maps.LatLng(-11.843000, -75.305333);
+                            var mapCanvas = document.getElementById("map");
+                            var mapOptions = { center: myCenter, zoom: 12 };
+                            var map = new google.maps.Map(mapCanvas, mapOptions);
+                            var marker = new google.maps.Marker({ position: myCenter });
+                            marker.setMap(map);
+                        }
+                   
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbnaFqYyFGihWBHvByrp7yY5Rf9oeG-BU&callback=myMap"></script>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3> Contáctenos</h3>
+                <br>
+                <h4>Nuestra dirección e información de contacto aquí.</h4>
+            </div>
+            <div class="col-sm-4">
+                <h3>Conéctate</h3>
+                <!--Iconos de redes sociales-->
+                <a href="https://www.facebook.com/COLEGIOLALIBERTAD30311/" class="fab fa-facebook-f" target="_blanck" style="text-decoration:none"></a>
+                <a href="https://twitter.com/IE_N30311" class="fab fa-twitter" target="_blanck" style="text-decoration:none"></a>
+                <a href="https://plus.google.com/u/0/113270321543352080947" class="fab fa-google" target="_blanck" style="text-decoration:none"></a>
+                <a class="fab fa-whatsapp" style="text-decoration:none" data-toggle="modal" data-target="#miventana">
+                    <div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h2 style="text-align: center">Síguenos en las redes sociales:</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/whatsapp.svg" class="images">
+                                    <button class="redes">Llamar al N° +51952995937</button>
+                                    <br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/ie_30311_lalibertad/" class="fab fa-instagram" target="_blanck" style="text-decoration:none"></a>
+            </div>
+            <div class="col-sm-4">
+                <!--Insignia del pie de pagina-->
+                <img src="img/herramientas.png" class="iconpie">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

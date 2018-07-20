@@ -1,0 +1,390 @@
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color:#2dcc70;
+    color:#FFF;
+    padding: 1% 0;
+    font-size:1.5em;
+    border: 0; 
+}
+.navbar-brand{
+    float:left;
+    min-height: 60px;
+    padding: 0px 20px 5px;
+
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+    color: #FFF;
+    background-color:#2dcc70;
+}
+.navbar-inverse .navbar-nav li a{
+    color: yellow;
+}
+.btn{
+    
+    font-size: 20px;
+   
+    margin: 10px;
+}
+.btn-tomato:hover {
+  background: tomato;
+}
+.iconpie{
+    width: 200px;
+    height: 200px;
+}
+.images{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 10%;
+}
+.ir-arriba{
+    display: none;
+    padding: 20px;
+    background: tomato;
+    font-size: 10px;
+    color: #FFF;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+}
+.redes{
+    border-radius:10px;
+    background:#2dcc70;
+    border:none;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    pointer-events: none;
+    
+}
+.carousel-caption{
+
+    top: 60%;
+    left: 25%;
+    text-align: center;
+    font-size: 18px;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    color: yellow;
+    text-shadow: 2px 2px 0px #000;
+}
+.container{
+    margin: 4% auto;
+}
+#icon{
+    max-width: 200px;
+    margin: 1% auto;
+}
+footer{
+    width: 100%;
+    background:#2dcc70;
+    padding: 3%;
+    color: #FFF;
+}
+.fab{
+    padding: 20px;
+    font-size: 30px;
+    color: #FFF;
+    
+}
+.fab:hover{
+    color:yellow;
+}
+.revelar{
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.revelar:hover{
+    color:tomato;
+}
+@media(max-width: 600px){
+.fab{
+    font-size: 20px;
+    padding: 10px;
+    }
+}
+@media (max-width: 600px){
+    .carousel-caption{
+        display: none;
+    }
+    #icon {
+        max-width: 150px;
+    }
+    h4 {
+        font-size: 1.7em;
+    }
+}
+/* Aqui esta el modal emergente */
+.modal-content{
+    color: #000;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Aqui esta el mapa y el formulario de contacto */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2dcc70;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:tomato;
+}
+
+/* Style the container/contact section */
+.container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 2px solid #00dd66;
+    
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* CONTENIDO DENTRO DE LA IMAGEN */
+.container4 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-centered {
+    position: absolute;
+    top: 40px;
+    left: 25%;
+    text-shadow: 3px 3px 3px #000;
+}
+.bottom-centered {
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+    text-shadow: 3px 3px 3px #000;
+}
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 800px){
+    .container4{
+        display: none;
+    }
+    img {
+        max-width: 150px;
+    }
+    h1 {
+        font-size: 1.7em;
+    }
+}
+
+/* AQUI EMPIEZAN LOS TESTIMONIOS */
+.container3 {
+  border: 2px solid yellow;
+  background-color: #00dd66;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 15px 0;
+}
+
+.container3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container3 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 4px solid #2196f3;
+}
+
+.container3 span {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #FFF;
+  font-family: 'Faster One', cursive;
+}
+.container3 p {
+  font-size: 20px;
+  padding: 10px;
+  color: #000;
+  font-family: 'Farsan', cursive;
+}
+.titulo{
+    text-align: center;
+    background:rgb(99, 96, 96);
+    color: #FFF;
+    font-size: 30px;
+}
+.titulo2{
+    text-align: center;
+    background:#00d7e6;
+    color: #000;
+    font-size: 30px;
+    font-family: 'Faster One';
+}
+.subtitulo{
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+        .container3 {
+        text-align: center;
+    }
+        .container3 img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
+#borders{
+    margin-top: 30px;
+    width: 420px;
+    height: 440px;
+    border: 4px solid #4CAF50; /* Green */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+#borders2{
+    margin-top: 30px;
+    width: 420px;
+    height: 475px;
+    border: 4px solid #4CAF50; /* Green */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+#borders3{
+    margin-top: 30px;
+    width: 420px;
+    height: 250px;
+    border: 4px solid #4CAF50; /* Green */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+#borders4{
+    margin-top: 30px;
+    width: 420px;
+    height: 250px;
+    border: 4px solid #4CAF50; /* Green */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+#borders5{
+    margin-top: 20px;
+    width: 600px;
+    height: 700px;
+    border: 4px solid #4CAF50; /* Green */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+#borders6{
+    margin-top: 20px;
+    width: 420px;
+    height: 250px;
+    border: 4px solid #4CAF50; /* Green */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+#borders7{
+   margin-top: 20px;
+    width: 420px;
+    height: 250px;
+    border: 4px solid #4CAF50; /* Green */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+.parrafo-testimonio{
+    font-size: 16px;
+}
+
+/* MENSAJE EXITOSO */
+.mensaje-exitoso{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mensaje-exitoso h1{
+    font-size: 35px;
+    display:block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mensaje-exitoso a{
+    display:block;
+    padding: 10px 30px;
+    background: #4091EC;
+    text-decoration: none;
+    color: #FFF;
+}
+.mensaje-exitoso a:hover{
+    background: #3371B6;
+}
